@@ -1,6 +1,134 @@
 /* This is where styles are defined for your page. */
-/* One style is provided as example. */
+@import url('https://fonts.googleapis.com/css?family=Dosis|Open+Sans|Satisfy');
+
+.page-header {
+    display: block;
+    background-image: url("images/hiking-the-sand-dunes.jpg");
+    background-repeat: no-repeat;
+    height: 90px;
+    padding: 30px;
+    border: 3px;
+    border-style: solid;
+    border-color: #94dbcb;
+    margin: 30px;
+}
+
+.page-header p {
+  
+    font-family:'Dosis', sans-serif;
+    color: #2b5260;
+}
+
+body {
+    background-image: url("images/borelli_background.jpg");
+  
+    background-size: cover;
+    z-index: -1;
+}
 
 h1 {
-    color: green;
+    font-family: 'Satisfy', cursive;
+    color: #38647F;
+    line-height: 20%;
 }
+
+aside.more-info {
+    font-family: 'Satisfy', cursive;
+    color: #38647F;
+    float: right;
+    margin-right: 170px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 3px;
+    border-style: solid;
+    border-color: #94dbcb;
+
+}
+
+aside.more-info > p {
+  
+  font-family:'Dosis', sans-serif;
+  color: #38647F;
+}
+
+aside.social-links, .info-links {
+    float: left;
+    margin-right: 40px;
+    margin-left: -20px;
+    margin-top: 0px;
+}
+
+#coleridge img {
+  width: 250px;
+}
+
+p {
+  font-family: 'Satisfy', cursive;
+  font-size: 1em;
+}
+
+/* unvisited link */
+a:link {
+    color: #b0c111;
+}
+
+/* mouse over link */
+a:hover {
+    color: #808d0d;
+}
+
+section#content {
+  background-color: #9f8f71;
+  width: 500px;
+  padding: 10px;
+  border: 7px;
+  border-style: double;
+  order-color: #94dbcb;
+  margin: 30px;
+}
+
+section#content a:link {
+  color: #2051f1;
+}
+
+section#content a:hover {
+  color: #5C7EB2;
+}
+
+.poem {
+  list-style-type: none;
+}
+
+ul {
+  font-family: 'Dosis', sans-serif;
+}
+
+#whitebox {
+  border: 3px;
+  border-style: solid;
+  border-color: #94dbcb;
+  background-color: #f8f8f8;
+  opacity: .9;
+  width: 505px;
+  margin-left: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.page-footer {
+  color: #38647F;
+  margin: 30px;
+}
+
+.page-credits {
+  background-color: #e8eaeb;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left:30px;
+  margin-left: -35px;
+  margin-right: -35px;
+  
+}
+
